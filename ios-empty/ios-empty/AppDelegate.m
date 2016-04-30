@@ -50,8 +50,8 @@
 
 - (void)doIt:(UIButton *)button
 {
-    self.alertString = self.textField.text;
     [self.textField resignFirstResponder];
+    self.alertString = self.textField.text;
 }
 
 - (void)setAlertString:(NSString *)alertStringNew
@@ -66,7 +66,7 @@
                        @"Once you have learned to love, You will have learned to live."
                       ];
     
-    NSString* name = [alertString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+    NSString* name = [alertStringNew stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
     if (name.length == 0)
         name = @"Incognito";
     NSString* quote = quotes[arc4random() % 7];
