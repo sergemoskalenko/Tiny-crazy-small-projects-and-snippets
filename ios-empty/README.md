@@ -9,5 +9,5 @@ It is simple small iOS ZEN.
 ![img3](https://github.com/sergemoskalenko/Tiny-crazy-small-projects-and-snippets/blob/master/ios-empty/ios-empty3.jpg?raw=true)
 
 **ios-empty** run online in your web browser
-https://appetize.io/app/92vn93rvzfkb76ga6dqfye3k0m
+https://appetize.io/app/6df6j5ub0tbb2676ve1zkxnbjg
 
