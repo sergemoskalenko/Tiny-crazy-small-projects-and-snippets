@@ -3,8 +3,6 @@
 //  ios-empty-swift
 //
 //  Created by Serge Moskalenko on 03.05.16.
-//  Skype:camopu-ympo
-//  mob: +380677629137
 //  Copyright © 2016 Serge Moskalenko. All rights reserved.
 //
 
