@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         let viewController = UIViewController()
-        self.window?.rootViewController = viewController
+        self.window?.rootViewController = viewController  // fix for iOS9, Xcode 7.3
         
         // Override point for customization after application launch.
         self.window!.backgroundColor = UIColor.whiteColor()

@@ -3,6 +3,8 @@
 //  ios-empty
 //
 //  Created by Serge Moskalenko on 13.06.12.
+//  Skype:camopu-ympo
+//  mob: +380677629137
 //  Copyright (c) 2012-2016 Serge Moskalenko. All rights reserved.
 //
 
@@ -23,10 +25,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [UIViewController new]; // fix for iOS9, Xcode 7.3
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
- 
+    
     UIButton* button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     button.backgroundColor = [UIColor colorWithRed:193.0/255 green:1.0 blue:241.0/255 alpha:1.0];
     button.frame = CGRectMake(0, 0, 200, 30);
