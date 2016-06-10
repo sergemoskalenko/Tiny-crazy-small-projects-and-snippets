@@ -39,12 +39,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 }
-//
-//  AppDelegate.m
-//  MSVReverseSingleLinkedList
-//
-//  Created by Serge Moskalenko on 09.06.16.
-//  Skype:camopu-ympo
-//  mob: +380677629137
-//  Copyright © 2016 Serge Moskalenko. All rights reserved.
-//
+
