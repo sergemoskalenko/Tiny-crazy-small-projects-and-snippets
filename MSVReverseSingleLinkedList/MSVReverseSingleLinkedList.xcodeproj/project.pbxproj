@@ -13,6 +13,8 @@
 		951586721D09FCBA00C93157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951586701D09FCBA00C93157 /* Main.storyboard */; };
 		951586741D09FCBA00C93157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951586731D09FCBA00C93157 /* Assets.xcassets */; };
 		951586771D09FCBA00C93157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951586751D09FCBA00C93157 /* LaunchScreen.storyboard */; };
+		951586821D0A031400C93157 /* RLLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9515867F1D0A031400C93157 /* RLLinkedList.m */; };
+		951586831D0A031400C93157 /* RLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 951586811D0A031400C93157 /* RLNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		951586731D09FCBA00C93157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		951586761D09FCBA00C93157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		951586781D09FCBA00C93157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9515867E1D0A031400C93157 /* RLLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLLinkedList.h; sourceTree = "<group>"; };
+		9515867F1D0A031400C93157 /* RLLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLLinkedList.m; sourceTree = "<group>"; };
+		951586801D0A031400C93157 /* RLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLNode.h; sourceTree = "<group>"; };
+		951586811D0A031400C93157 /* RLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				9515866B1D09FCBA00C93157 /* AppDelegate.m */,
 				9515866D1D09FCBA00C93157 /* ViewController.h */,
 				9515866E1D09FCBA00C93157 /* ViewController.m */,
+				9515867E1D0A031400C93157 /* RLLinkedList.h */,
+				9515867F1D0A031400C93157 /* RLLinkedList.m */,
+				951586801D0A031400C93157 /* RLNode.h */,
+				951586811D0A031400C93157 /* RLNode.m */,
 				951586701D09FCBA00C93157 /* Main.storyboard */,
 				951586731D09FCBA00C93157 /* Assets.xcassets */,
 				951586751D09FCBA00C93157 /* LaunchScreen.storyboard */,
@@ -151,7 +161,9 @@
 			files = (
 				9515866F1D09FCBA00C93157 /* ViewController.m in Sources */,
 				9515866C1D09FCBA00C93157 /* AppDelegate.m in Sources */,
+				951586821D0A031400C93157 /* RLLinkedList.m in Sources */,
 				951586691D09FCBA00C93157 /* main.m in Sources */,
+				951586831D0A031400C93157 /* RLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
